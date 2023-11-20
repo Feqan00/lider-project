@@ -43,11 +43,55 @@ header {
 }
 .header-in-text-second p {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .header-icon {
   font-size: 14px;
   display: flex;
   gap: 10px;
+}
+
+.nav-bar {
+  background-color: #EFF4F8;
+  padding: 15px 0;
+}
+
+.nav-bar-in {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar-in .call-img {
+  display: flex;
+  align-items: flex-start;
+  background-color: #D91F2C;
+  border-radius: 10px;
+  height: 35px;
+}
+.nav-bar-in .call-img p {
+  font-size: 30px;
+  line-height: 35.16px;
+  font-weight: 900;
+  color: white;
+}
+
+.nav-bar-menu {
+  background-color: #0168AB;
+  height: 45px;
+}
+.nav-bar-menu .nav-bar-menu-in ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.nav-bar-menu .nav-bar-menu-in ul li a {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.corusel img {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

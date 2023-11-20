@@ -16,6 +16,11 @@
     padding: 10px 25px;
 }
 
+
+
+// ---------------------HEADER------------------------------
+
+
 header {
     background-color: #2B343B;
     color: white;
@@ -42,7 +47,7 @@ header {
 .header-in-text-second {
     p {
         font-weight: 400;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     display: flex;
@@ -55,3 +60,63 @@ header {
     display: flex;
     gap: 10px;
 }
+
+// ----------------------NAV_BAR--------------------------
+
+.nav-bar {
+    background-color: #EFF4F8;
+    padding: 15px 0;
+}
+
+.nav-bar-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .call-img {
+        display: flex;
+        align-items: flex-start;
+        background-color: #D91F2C;
+        border-radius: 10px;
+        height: 35px;
+
+        p {
+            font-size: 30px;
+            line-height: 35.16px;
+            font-weight: 900;
+            color: white;
+        }
+    }
+}
+
+
+// -------------------------nav-bar-menu----------------------------------
+
+.nav-bar-menu {
+    background-color: #0168AB;
+    height: 45px;
+
+    .nav-bar-menu-in {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+
+            li {
+                a {
+                    color: white;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}
+
+.corusel{
+   img{
+    width: 100%;
+   } 
+}
+

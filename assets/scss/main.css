@@ -14,6 +14,12 @@
   padding: 10px 25px;
 }
 
+.dropdown-cont {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 25px;
+}
+
 header {
   background-color: #2B343B;
   color: white;
@@ -80,12 +86,12 @@ header {
   background-color: #0168AB;
   height: 45px;
 }
-.nav-bar-menu .nav-bar-menu-in ul {
+.nav-bar-menu .nav-bar-menu-in > ul {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
-.nav-bar-menu .nav-bar-menu-in ul li a {
+.nav-bar-menu .nav-bar-menu-in > ul li a {
   color: white;
   font-weight: 500;
   font-size: 16px;
@@ -94,4 +100,9 @@ header {
 
 .corusel img {
   width: 100%;
+}
+
+.dropdown-menu {
+  background-color: #0071BB;
+  display: none;
 }/*# sourceMappingURL=main.css.map */

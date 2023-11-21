@@ -16,6 +16,12 @@
     padding: 10px 25px;
 }
 
+.dropdown-cont {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 25px;
+}
+
 
 
 // ---------------------HEADER------------------------------
@@ -96,7 +102,7 @@ header {
     background-color: #0168AB;
     height: 45px;
 
-    .nav-bar-menu-in {
+    .nav-bar-menu-in> {
         ul {
             display: flex;
             justify-content: space-between;
@@ -114,9 +120,13 @@ header {
     }
 }
 
-.corusel{
-   img{
-    width: 100%;
-   } 
+.corusel {
+    img {
+        width: 100%;
+    }
 }
 
+.dropdown-menu {
+    background-color: #0071BB;
+    display: none;
+}

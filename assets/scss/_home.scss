@@ -160,5 +160,14 @@ header {
     display: block;
     width: 100px;
     height: 100px;
-    object-fit: contain;
+    object-fit: scale-down;
+}
+
+
+// ---------------------------MEDIA-query--------------------
+
+@media (max-width:790px) {
+    .nav-bar-menu-in> {
+      width: 100%;
+    }
 }

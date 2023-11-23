@@ -178,4 +178,38 @@ header {
 
 .burger-menu:hover {
   cursor: pointer;
+}
+
+.burger_menu-in {
+  width: 24%;
+  background-image: url("../images/burgr-munu-back-img.png");
+  background-repeat: no-repeat;
+}
+.burger_menu-in .close-Button {
+  text-align: end;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+.burger_menu-in .lang-txt {
+  margin-bottom: 5rem;
+}
+.burger_menu-in .lang-txt ul {
+  display: flex;
+  gap: 2rem;
+}
+.burger_menu-in .lang-txt ul li a {
+  color: #2B343B;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+.burger_menu-in .burger-menu-pages {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+.burger_menu-in .burger-menu-pages ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }/*# sourceMappingURL=main.css.map */

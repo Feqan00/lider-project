@@ -93,6 +93,19 @@ header {
             color: white;
         }
     }
+
+    .call-number {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        p {
+            color: #2B343B;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 18.75px;
+        }
+    }
 }
 
 
@@ -166,8 +179,14 @@ header {
 
 // ---------------------------MEDIA-query--------------------
 
-@media (max-width:790px) {
-    .nav-bar-menu-in> {
-      width: 100%;
+@media (max-width:800px) {
+    .nav-bar-in {
+        .call-number {
+            display: none;
+        }
+    }
+
+    .header-in-text-first> {
+        display: none;
     }
 }

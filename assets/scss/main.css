@@ -81,6 +81,17 @@ header {
   font-weight: 900;
   color: white;
 }
+.nav-bar-in .call-number {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.nav-bar-in .call-number p {
+  color: #2B343B;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18.75px;
+}
 
 .nav-bar-menu {
   background-color: #0168AB;
@@ -135,4 +146,10 @@ header {
   height: 100px;
   -o-object-fit: scale-down;
      object-fit: scale-down;
+}
+
+@media (max-width: 800px) {
+  .nav-bar-in .call-number {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

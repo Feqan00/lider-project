@@ -20,6 +20,12 @@
   padding: 10px 25px;
 }
 
+.burger-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 25px;
+}
+
 header {
   background-color: #2B343B;
   color: white;
@@ -196,6 +202,7 @@ header {
 .burger_menu-in .lang-txt ul {
   display: flex;
   gap: 2rem;
+  padding-left: 0;
 }
 .burger_menu-in .lang-txt ul li a {
   color: #2B343B;
@@ -212,4 +219,9 @@ header {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-bottom: 5rem;
+  padding-left: 0;
+}
+.burger_menu-in .burger-menu-pages ul li a {
+  color: #2B343B;
 }/*# sourceMappingURL=main.css.map */

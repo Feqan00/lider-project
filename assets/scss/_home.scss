@@ -186,7 +186,43 @@ header {
         }
     }
 
-    .header-in-text-first> {
+    .header-in-text-first {
+        .header-p1 {
+            display: none;
+        }
+    }
+
+    .header-in-text-second {
+        .header-p1 {
+            display: none;
+        }
+    }
+}
+
+@media (max-width:750px) {
+    .nav-bar-menu {
         display: none;
     }
+
+    .nav-bar-in {
+        .burger-menu {
+            display: block;
+        }
+    }
+
+    .mark-head-p {
+        p {
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.burger-menu {
+    display: none;
+}
+
+.burger-menu:hover {
+    cursor: pointer;
 }

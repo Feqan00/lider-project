@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   z-index: 33;
-  background: red;
+  background-image: url("../images/burgr-munu-back-img.png");
   width: 100%;
   margin: 0 auto;
   padding: 10px 25px;

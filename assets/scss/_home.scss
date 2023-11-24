@@ -23,6 +23,10 @@
 }
 
 .burger-container {
+    position: fixed;
+    top: 0;
+    z-index: 33;
+    background: red;
     width: 100%;
     margin: 0 auto;
     padding: 10px 25px;
@@ -149,6 +153,75 @@ header {
 }
 
 
+
+// ----------------------BURGER______MENU----------------------------
+.burger-menu {
+    display: none;
+}
+
+.burger-menu:hover {
+    cursor: pointer;
+}
+
+.burger_menu-in {
+
+    display: none;
+    width: 24%;
+    background-image: url('../images/burgr-munu-back-img.png');
+    background-repeat: no-repeat;
+
+    .close-Button {
+        text-align: end;
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+
+    .close-Button:hover {
+        cursor: pointer;
+    }
+
+    .lang-txt {
+        margin-bottom: 5rem;
+
+        ul {
+            display: flex;
+            gap: 2rem;
+            padding-left: 0;
+
+
+            li {
+                a {
+                    color: #2B343B;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+
+    .burger-menu-in-pages {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 5rem;
+            padding-left: 0;
+
+            li {
+                a {
+                    color: #2B343B;
+                }
+            }
+        }
+    }
+
+}
+
 // ---------------SWIPER------------------------
 
 .mark-head-p {
@@ -223,67 +296,4 @@ header {
             margin-bottom: 3rem;
         }
     }
-}
-
-.burger-menu {
-    display: none;
-}
-
-.burger-menu:hover {
-    cursor: pointer;
-}
-
-
-
-.burger_menu-in {
-    width: 24%;
-    background-image: url('../images/burgr-munu-back-img.png');
-    background-repeat: no-repeat;
-
-    .close-Button {
-        text-align: end;
-        font-size: 30px;
-        margin-bottom: 2rem;
-    }
-
-    .lang-txt {
-        margin-bottom: 5rem;
-
-        ul {
-            display: flex;
-            gap: 2rem;
-            padding-left: 0;
-
-
-            li {
-                a {
-                    color: #2B343B;
-                    font-weight: 500;
-                    font-size: 20px;
-                    line-height: 26px;
-                }
-            }
-        }
-    }
-
-    .burger-menu-pages {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 26px;
-
-        ul {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            margin-bottom: 5rem;
-            padding-left: 0;
-
-            li {
-                a {
-                    color: #2B343B;
-                }
-            }
-        }
-    }
-
 }

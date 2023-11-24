@@ -21,6 +21,10 @@
 }
 
 .burger-container {
+  position: fixed;
+  top: 0;
+  z-index: 33;
+  background: red;
   width: 100%;
   margin: 0 auto;
   padding: 10px 25px;
@@ -124,6 +128,58 @@ header {
   display: none;
 }
 
+.burger-menu {
+  display: none;
+}
+
+.burger-menu:hover {
+  cursor: pointer;
+}
+
+.burger_menu-in {
+  display: none;
+  width: 24%;
+  background-image: url("../images/burgr-munu-back-img.png");
+  background-repeat: no-repeat;
+}
+.burger_menu-in .close-Button {
+  text-align: end;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+.burger_menu-in .close-Button:hover {
+  cursor: pointer;
+}
+.burger_menu-in .lang-txt {
+  margin-bottom: 5rem;
+}
+.burger_menu-in .lang-txt ul {
+  display: flex;
+  gap: 2rem;
+  padding-left: 0;
+}
+.burger_menu-in .lang-txt ul li a {
+  color: #2B343B;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+.burger_menu-in .burger-menu-in-pages {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+.burger_menu-in .burger-menu-in-pages ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 5rem;
+  padding-left: 0;
+}
+.burger_menu-in .burger-menu-in-pages ul li a {
+  color: #2B343B;
+}
+
 .mark-head-p p {
   text-align: center;
   font-size: 36px;
@@ -177,51 +233,4 @@ header {
     font-weight: 400;
     margin-bottom: 3rem;
   }
-}
-.burger-menu {
-  display: none;
-}
-
-.burger-menu:hover {
-  cursor: pointer;
-}
-
-.burger_menu-in {
-  width: 24%;
-  background-image: url("../images/burgr-munu-back-img.png");
-  background-repeat: no-repeat;
-}
-.burger_menu-in .close-Button {
-  text-align: end;
-  font-size: 30px;
-  margin-bottom: 2rem;
-}
-.burger_menu-in .lang-txt {
-  margin-bottom: 5rem;
-}
-.burger_menu-in .lang-txt ul {
-  display: flex;
-  gap: 2rem;
-  padding-left: 0;
-}
-.burger_menu-in .lang-txt ul li a {
-  color: #2B343B;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
-}
-.burger_menu-in .burger-menu-pages {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
-}
-.burger_menu-in .burger-menu-pages ul {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-bottom: 5rem;
-  padding-left: 0;
-}
-.burger_menu-in .burger-menu-pages ul li a {
-  color: #2B343B;
 }/*# sourceMappingURL=main.css.map */

@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   z-index: 33;
-  background-image: url("../images/burgr-munu-back-img.png");
+  background-color: #F2F4F5;
   width: 100%;
   margin: 0 auto;
   padding: 10px 25px;
@@ -81,7 +81,7 @@ header {
 .nav-bar-in .call-img {
   display: flex;
   align-items: flex-start;
-  background-color: #D91F2C;
+  background-color: #F32735;
   border-radius: 10px;
   height: 35px;
 }
@@ -151,7 +151,7 @@ header {
   cursor: pointer;
 }
 .burger_menu-in .lang-txt {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 .burger_menu-in .lang-txt ul {
   display: flex;
@@ -227,6 +227,9 @@ header {
   }
   .nav-bar-in .burger-menu {
     display: block;
+  }
+  .nav-bar-in .call-img {
+    display: none;
   }
   .mark-head-p p {
     font-size: 30px;

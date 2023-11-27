@@ -75,7 +75,7 @@ header {
 
 .nav-bar-in {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
 }
 .nav-bar-in .call-img {
@@ -236,4 +236,58 @@ header {
     font-weight: 400;
     margin-bottom: 3rem;
   }
+}
+.iron-sec {
+  margin-top: 5rem;
+}
+.iron-sec .iron-sec-header {
+  display: flex;
+  justify-content: center;
+}
+.iron-sec .iron-sec-header p {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 26px;
+  color: #2B343B;
+}
+
+.Techs-sec-all {
+  display: flex;
+  gap: 10px;
+}
+
+.iron-sec {
+  background-image: url("../images/iron-sec-bg.png");
+  background-repeat: no-repeat;
+  background-color: #FAF9FE;
+}
+
+.tech-card {
+  background-image: url("../images/temir-card-bg.png");
+  background-repeat: no-repeat;
+  background-color: #E8EDF8;
+  border-radius: 10px;
+}
+.tech-card .card-tech-header p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+}
+.tech-card .tech-card-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.tech-card .tech-card-in .card-tech-foot {
+  position: relative;
+  left: 0px;
+  top: 15px;
+}
+.tech-card .tech-card-in .icon-foot {
+  position: absolute;
+  top: 50px;
+  left: 60px;
 }/*# sourceMappingURL=main.css.map */

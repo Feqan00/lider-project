@@ -32,6 +32,9 @@
     padding: 10px 25px;
 }
 
+.card-container {
+   
+}
 
 
 // ---------------------HEADER------------------------------
@@ -300,6 +303,75 @@ header {
             margin-bottom: 3rem;
         }
     }
+}
+
+// ------------------------iron-sec---------------
 
 
+.iron-sec {
+    margin-top: 5rem;
+
+    .iron-sec-header {
+        display: flex;
+        justify-content: center;
+
+        p {
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 26px;
+            color: #2B343B;
+        }
+    }
+}
+
+.Techs-sec-all {
+    display: flex;
+    gap: 10px;
+}
+
+.iron-sec {
+    background-image: url('../images/iron-sec-bg.png');
+    background-repeat: no-repeat;
+    background-color: #FAF9FE;
+}
+
+.tech-card {
+    background-image: url('../images/temir-card-bg.png');
+    background-repeat: no-repeat;
+    background-color: #E8EDF8;
+    border-radius: 10px;
+    // max-width: 400px;
+
+    .card-tech-header {
+        p {
+            text-align: center;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+
+    .card-tech-body {
+        img {}
+    }
+
+    .tech-card-in {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+
+        .card-tech-foot {
+            position: relative;
+            left: 0px;
+            top: 15px;
+        }
+
+        .icon-foot {
+            position: absolute;
+            top: 50px;
+            left: 60px;
+        }
+    }
 }
